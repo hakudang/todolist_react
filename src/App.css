@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+.container-fluid{
+  /* padding: 0; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* BEGIN HEADER */
+.header{
+  width: 100%;
+  height: 60px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.my-modal-header{
+  width: 100%;
+  height: 60px;
+  color: white;
+  background-color: #B08874;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header--left{
+  background-color: #543E36;
+
+}
+
+.header--right{
+  background-color: #B08874;
+}
+/* END HEADER */
+
+
+.user{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.my-user{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.my-search {
+  height: 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+/* .my-btn{
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.circle-icon {
+  background: #ffc0c0;
+  padding:0px;
+  border-radius: 50%;
+}
+
+.btn--newTask{
+  width: 80%;
+  height: 50px;
+  font-size: 16px;
+  background-color: #48a521;
+  color: white;
+}
+
+.btn--initializeTask{
+  width: 80%;
+  height: 50px;
+  font-size: 16px;
+  background-color: #008b8b;
+  color: white;
+} */
+
+.filter > ul {
+  font-size: 16px;
+}
+.filter> ul > li {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter--label ul>li:nth-child(2) > i{
+  color: #F7BA43 ;
+}
+.filter--label ul>li:nth-child(3) > i{
+  color: #FAFF01 ;
+}
+.filter--label ul>li:nth-child(4) > i{
+  color: #32D843 ;
+}
+.filter--label ul>li:nth-child(5) > i{
+  color: #08B1F9  ;
+}
+.filter--label ul>li:nth-child(6) > i{
+  color: #0A3FFA  ;
+}
+.filter--label ul>li:nth-child(7) > i{
+  color: #BA0DF6  ;
+}
+
+table td, table th {
+  vertical-align: middle!important;
 }
