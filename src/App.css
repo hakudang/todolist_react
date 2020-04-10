@@ -89,6 +89,10 @@
   color: white;
 } */
 
+li:hover{
+  background-color: #ECECEC;
+}
+
 .filter > ul {
   font-size: 16px;
 }
